@@ -12,7 +12,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/hanxun')
+@app.route('/6')
 def demo():
     return "hello hanxun - python"
 
